@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1/*box-level*/{
+            background-color: lightgreen;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid darkgray;/*shorthand/*
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: darkgray;*/
+
+            padding: 30px 20px 30px 40px; /*sentido horário - em cima, direita, abaixo e a esquerda;
+            se colocar 4 medidas iguais é a mesma pra todos
+            se colocar 2 medidas elas são pra em cima e abaixo e direita esquerda
+            margin-bottom: 30px;
+            margin-top: 50px;
+            margin: auto; centraliza a caixa de acordo com o tamanho da tela
+            auto: sempre calcula
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blue;*/
+
+            outline: 5px dashed blue;
+        }
+
+        a/*inline-level*/{
+            border-width: 3px;
+            border-style: dotted;
+            border-color: red;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos são exemplos de caixas box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>.</p>
+    <p>Vamos ver como isso funciona. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur mollitia saepe consectetur sunt tempora accusantium eligendi. Quas soluta cumque numquam dignissimos vitae, inventore necessitatibus provident tempore facilis illo eveniet impedit.</p>
+</body>
+</html>
