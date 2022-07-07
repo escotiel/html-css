@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de fundo</title>
+    <style>
+
+        body{
+            background-image: url('/exercicios/ex022/imagens/wallpaper001.jpg');
+        }
+
+        p{
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            background-color: lightgray;
+            border-radius: 10px;
+            width: 150px;
+            height: 150px;
+        }
+
+        div#q1{
+            background-color: skyblue;
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        div#q3{
+            background-image: url('/exercicios/ex022/imagens/pattern001.png');
+        }
+    </style>
+</head>
+<body>
+    <p>Cor sólida</p>
+    <div class="quadrado" id="q1">
+        
+    </div><br><br>
+
+    <p>Cor gradiente usando linear-gradient</p>
+    <div class="quadrado" id="q2">
+
+    </div><br><br>
+
+    <p>Plano de fundo com imagem que foi usada para preencher o espaço</p>
+    <div class="quadrado" id="q3">
+        
+    </div>
+</body>
+</html>
